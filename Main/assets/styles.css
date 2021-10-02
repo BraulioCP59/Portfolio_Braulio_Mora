@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 10px 0px;
+    background-image: linear-gradient(to right, #000000, #434343);
+    color: cornsilk;
+}
+
+h1{
+    background-image: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size:xx-large;
+    padding-right: 5%;
+}
+
+nav h1{
+    padding-left: 5%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+#subtitle{
+    background-image:url(./images/zoe-oFU7aGtKwLQ-unsplash.jpg);
+    background-size: 70%;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    color: cornsilk;
+    font-size: xx-large;
+}
+
+#subtitle h2 {
+    background-image: linear-gradient( to right, #0F2027, #203A43, #2C5364);
+}
+
+#bioSection{
+    display: flex;
+    align-items: center;
+    margin:40px 0;
+}
+
+#bioSection h2{
+    width: 25%;
+    font-size: xx-large;
+    padding-left: 10%;
+}
+
+#bioText{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-left: 8px solid black;
+    padding: 0 70px;
+}
+
+#workSection {
+    display: flex;
+    align-items: center;
+    margin:40px 0;
+}
+
+#workSection h2{
+    width: 25%;
+    font-size: xx-large;
+    padding-left: 10%;
+    /* padding-top: 25%; */
+}
+
+#contactInfoSection{
+    display: flex;
+    align-items: center;
+    margin:40px 0;
+}
+
+#contactInfoSection h2{
+    width: 25%;
+    font-size: xx-large;
+    padding-left: 10%;
+}
+
+#contactInformation{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    border-left: 8px solid black;
+    padding: 0 70px;
+}
+
+
+#mainApp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#spaceApp{
+    margin: 5px 0px;
+    background-image: url(./images/nasa--hI5dX2ObAs-unsplash.jpg);
+    background-size: 100%;
+    height: 700px;
+    width: 100%;
+    border: 8px solid #2C5364;
+}
+
+#dontWakeUp{
+    margin: 5px 0px;
+    background-image: url(./images/dont_wake_up.jpg);
+    background-position: bottom;
+    width: 50%;
+    border: 8px solid #2C5364;
+
+}
+
+#machineDry{
+    margin: 5px 0px;
+    background-image: url(./images/engin-akyurt-yCYVV8-kQNM-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 50%;
+    border: 8px solid #2C5364;
+}
+
+#mushrooms{
+    margin: 5px 0px;
+    background-image: url(./images/Mushies.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 50%;
+    border: 8px solid #2C5364;
+}
+
+#flyLady{
+    margin: 5px 0px;
+    background-image: url(./images/fly_lady.jpg);
+    background-size: 40%;
+    background-position: left;
+    width: 50%;
+    border: 8px solid #2C5364;
+}
+
+#secondaryApps{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 550px;
+}
+
+#appDemos{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 8px solid black;
+    padding: 0 50px;
+
+}
+
+.workImage img{
+    height: 100%;
+    max-width: 100%;
+}
+

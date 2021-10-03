@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+body{
+    background-image:url(./images/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    background-size: 70%;
+    background-position: center;
+}
+
 header{
     padding: 10px 0px;
     background-image: linear-gradient(to right, #000000, #434343);
@@ -23,6 +29,7 @@ nav{
 
 nav h1{
     padding-left: 5%;
+    font-size: 2vw;
 }
 
 ul{
@@ -37,11 +44,26 @@ ul li{
     margin: 0 10px;
 }
 
+li a{
+    text-decoration: none;
+    color: cornsilk;
+    background-image: linear-gradient(270deg, cornsilk 0%, cornsilk 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+}
+
+li a:hover {
+    background-size: 100% 100%;
+    color: #434343;
+  }
+
 #subtitle{
-    background-image:url(./images/zoe-oFU7aGtKwLQ-unsplash.jpg);
-    background-size: 70%;
+    background-image:url(./images/dil-F35EmcotWPY-unsplash.jpg);
+    background-size: 100%;
     background-position: center;
-    height: 150px;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -63,7 +85,7 @@ ul li{
 
 #bioSection h2{
     width: 25%;
-    font-size: xx-large;
+    font-size: 2vw;
     padding-left: 10%;
 }
 
@@ -83,7 +105,7 @@ ul li{
 
 #workSection h2{
     width: 25%;
-    font-size: xx-large;
+    font-size: 2vw;
     padding-left: 10%;
     /* padding-top: 25%; */
 }
@@ -96,7 +118,7 @@ ul li{
 
 #contactInfoSection h2{
     width: 25%;
-    font-size: xx-large;
+    font-size: 2vw;
     padding-left: 10%;
 }
 

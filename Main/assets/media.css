@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1050px){
+    header {
+        padding: 0px 0px;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+        padding: initial;
+        font-size: xxx-large;
+    }
+    header nav {
+        justify-content: center;
+        width: 100%;
+        font-size: x-large;
+        padding-top: 10px;
+    }
+
+    #subtitle h2{
+        width: 100%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    #bioSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #bioSection h2{
+        padding-left: 0%;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    #braulio img{
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    #bioText{
+        width: 90%;
+        border: none;
+        border-top: 8px solid black;
+        font-size: x-large;
+    }
+
+    #bioText p{
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+
+    #workSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #workSection h2{
+        padding-left: 0%;
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: xx-large;
+    }
+
+    #appDemos{
+        width: 90%;
+        border: none;
+        padding: 0 0 10px 0;
+        border-top: 8px solid black;
+        padding-left: 0%;
+        justify-content: center;
+    }
+
+    #mainApp{
+        width: 100%;
+        justify-content: center;
+        background-size: cover;
+        background-position: inherit;
+    }
+
+    #secondaryApps a{
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (min-width: 300px){
+
+    header nav {
+        font-size:larger;
+    }
+
+    nav li{
+        padding-bottom: 10px;
+    }
+
+}
+

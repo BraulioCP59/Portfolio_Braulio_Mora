@@ -139,8 +139,8 @@ li a:hover {
 
 #spaceApp{
     margin: 5px 0px;
-    background-image: url(./images/nasa--hI5dX2ObAs-unsplash.jpg);
-    background-size: 100%;
+    background-image: url('../../Images/roomFinders_v1.PNG');
+    background-size: 120%;
     background-position: center;
     height: 700px;
     width: 100%;
@@ -149,8 +149,9 @@ li a:hover {
 
 #dontWakeUp{
     margin: 5px 0px;
-    background-image: url(./images/dont_wake_up.jpg);
-    background-position: bottom;
+    background-image: url('../../Images/note_Taker.PNG');
+    background-size: 110%;
+    background-position: center;
     width: 50%;
     border: 8px solid #2C5364;
 
@@ -158,7 +159,7 @@ li a:hover {
 
 #machineDry{
     margin: 5px 0px;
-    background-image: url(./images/engin-akyurt-yCYVV8-kQNM-unsplash.jpg);
+    background-image: url('../../Images/work_day_scheduler.PNG');
     background-size: 100%;
     background-position: center;
     width: 50%;
